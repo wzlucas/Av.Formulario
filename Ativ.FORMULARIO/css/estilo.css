@@ -1,0 +1,65 @@
+/* Define a aparência do corpo da página */
+body {
+    background-color: #002f4b;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #fdf6d8;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Estiliza o container principal de cada página */
+.container-custom {
+    background-color: #fdf6d8;
+    color: #002f4b;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+
+}
+
+/* Estiliza títulos (h1 e h2) com cor temática */
+h1, h2 {
+    color: #f8c24d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Botão laranja personalizado */
+.btn-custom {
+    background-color: #c46d2d;
+    color: white;
+    border: none;
+}
+
+/* Efeito quando o mouse passa por cima do botão */
+.btn-custom:hover {
+    background-color: #a5551a;
+}
+
+/* Estilização da tabela de personagens */
+.table-custom {
+    background-color: white;
+    color: #002f4b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da tabela com fundo dourado */
+.table-custom th {
+    background-color: #f8c24d;
+    color: #002f4b;
+}
+
+/* Estilo para as imagens do card */
+.card-img-top {
+    object-fit: cover;
+}
+
+/* Card individual do personagem */
+.card-custom {
+    background-color: #fdf6d8; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
